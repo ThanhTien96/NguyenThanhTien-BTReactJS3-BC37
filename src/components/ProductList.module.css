@@ -1,0 +1,29 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.quantity{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: #e2ebfc;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 0px;
+    right: -25px;
+
+}
+.cart{
+    position: relative;
+}
